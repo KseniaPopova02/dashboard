@@ -10,9 +10,7 @@ export const Button = ({
   disabled = "false",
 }) => {
   const handleClick = (e) => {
-    if (!disabled) {
-      onClick(e);
-    }
+    onClick(e);
   };
   return (
     <StyledBtn
