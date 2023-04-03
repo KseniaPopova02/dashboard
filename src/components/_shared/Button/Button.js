@@ -13,6 +13,10 @@ const StyledBtn = styled.button`
   border: none;
   max-width: 316px;
   width: 100%;
+  cursor: pointer;
+  &:hover {
+    background-color: #1a24de;
+  }
 `;
 
 const Button = ({ children, onClick, className, type, disabled }) => {
