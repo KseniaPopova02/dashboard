@@ -12,6 +12,7 @@ export const StyledBtn = styled.button`
   max-width: 316px;
   width: 100%;
   cursor: pointer;
+  transition: all 0.3s;
   &:hover {
     background-color: #1a24de;
   }
