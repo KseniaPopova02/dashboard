@@ -15,14 +15,19 @@ const StyledBtn = styled.button`
   width: 100%;
 `;
 
-const Button = ({ children, onClick, className, disabled }) => {
+const Button = ({ children, onClick, className, type, disabled }) => {
   const handleClick = (e) => {
     if (!disabled) {
       onClick(e);
     }
   };
   return (
-    <StyledBtn onClick={handleClick} className={className} disabled={disabled}>
+    <StyledBtn
+      onClick={handleClick}
+      className={className}
+      type={type}
+      disabled={disabled}
+    >
       {children}
     </StyledBtn>
   );
@@ -30,11 +35,17 @@ const Button = ({ children, onClick, className, disabled }) => {
 
 export default Button;
 
-Button.defaultProps = { onClick: () => {}, className: "", disabled: false };
+Button.defaultProps = {
+  onClick: () => {},
+  className: "",
+  type: "button",
+  disabled: false,
+};
 
 Button.propTypes = {
   onClick: PropTypes.func,
   className: PropTypes.string,
+  type: PropTypes.string,
   disabled: PropTypes.bool,
   children: PropTypes.node.isRequired,
 };
