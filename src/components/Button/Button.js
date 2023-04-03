@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { StyledBtn } from "./styled";
 
-const Button = ({
+export const Button = ({
   children,
   onClick,
   className = "",
@@ -25,5 +25,3 @@ const Button = ({
     </StyledBtn>
   );
 };
-
-export default Button;
