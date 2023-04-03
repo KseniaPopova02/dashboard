@@ -1,23 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import PropTypes from "prop-types";
-
-const StyledBtn = styled.button`
-  background: #3751ff;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 15px 24px;
-  color: #fff;
-  border: none;
-  max-width: 316px;
-  width: 100%;
-  cursor: pointer;
-  &:hover {
-    background-color: #1a24de;
-  }
-`;
+import { StyledBtn } from "./styled";
 
 const Button = ({ children, onClick, className, type, disabled }) => {
   const handleClick = (e) => {
