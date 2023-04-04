@@ -1,7 +1,8 @@
 import React from "react";
 import { StyledBtn } from "./styled";
+import { Button } from "antd";
 
-export const Button = ({
+export const ButtonForm = ({
   children,
   onClick,
   className = "",
@@ -16,4 +17,12 @@ export const Button = ({
   >
     {children}
   </StyledBtn>
+  // <Button
+  //   onClick={onClick}
+  //   className={className}
+  //   type={type}
+  //   disabled={disabled}
+  // >
+  //   {children}
+  // </Button>
 );
