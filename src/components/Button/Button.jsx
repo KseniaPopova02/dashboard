@@ -7,18 +7,13 @@ export const Button = ({
   className = "",
   type = "button",
   disabled = "false",
-}) => {
-  const handleClick = (e) => {
-    onClick(e);
-  };
-  return (
-    <StyledBtn
-      onClick={handleClick}
-      className={className}
-      type={type}
-      disabled={disabled}
-    >
-      {children}
-    </StyledBtn>
-  );
-};
+}) => (
+  <StyledBtn
+    onClick={onClick}
+    className={className}
+    type={type}
+    disabled={disabled}
+  >
+    {children}
+  </StyledBtn>
+);
