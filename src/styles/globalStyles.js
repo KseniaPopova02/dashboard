@@ -1,4 +1,14 @@
-@font-face {
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+body {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    color: #4b506d;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  @font-face {
   font-family: "Mulish", sans-serif;
   src: url("./fonts/Mulish-Bold.ttf") format("ttf");
 
@@ -22,3 +32,4 @@
   font-style: normal;
   font-display: swap;
 }
+`;

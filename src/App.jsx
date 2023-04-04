@@ -1,8 +1,12 @@
-// import "./styles/App.css";
+import { GlobalStyle } from "./styles/globalStyles";
 import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
