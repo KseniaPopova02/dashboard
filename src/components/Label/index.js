@@ -1,0 +1,1 @@
+import { StyledLabel } from "./style";
