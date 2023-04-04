@@ -7,4 +7,5 @@ export const StyledLabel = styled.label`
   color: #9fa2b4;
   margin-bottom: 6px;
   text-transform: uppercase;
+  display: block;
 `;

@@ -1,5 +1,11 @@
+import { Label, Input } from "./components";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Label>Email</Label>
+      <Input placeholder="Email" />
+    </>
+  );
 }
 
 export default App;
