@@ -1,11 +1,11 @@
 import React from "react";
-import { StyledLogoWrapper } from "./style";
+import { StyledLogoWrapper, StyledLogoSvg, StyledLogoText } from "./style";
 
 export const Logo = () => (
   <StyledLogoWrapper>
-    <svg
-      width="48"
-      height="48"
+    <StyledLogoSvg
+      width="1em"
+      height="1em"
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -24,11 +24,11 @@ export const Logo = () => (
           y2="34.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0.7" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0.7" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
       </defs>
-    </svg>
-    <div>Dashboard Kit</div>
+    </StyledLogoSvg>
+    <StyledLogoText>Dashboard Kit</StyledLogoText>
   </StyledLogoWrapper>
 );
