@@ -1,7 +1,2 @@
-import { Logo } from "./components";
-const App = () => (
-  <>
-    <Logo></Logo>
-  </>
-);
+const App = () => <></>;
 export default App;
