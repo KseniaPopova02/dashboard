@@ -1,4 +1,4 @@
-.input.ant-input-affix-wrapper {
+.input.ant-input {
   border: 1px solid #dfe0eb;
   border-radius: 8px;
   font-weight: 400;
@@ -10,6 +10,6 @@
   outline: none;
 }
 
-.input.ant-input-affix-wrapper:hover {
+.input.ant-input:hover {
   border-color: #3751ff;
 }

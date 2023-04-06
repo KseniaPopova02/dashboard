@@ -1,8 +1,3 @@
-import { InputPassword } from "./components";
-const App = () => (
-  <>
-    <InputPassword />
-  </>
-);
+const App = () => <></>;
 
 export default App;
