@@ -7,7 +7,7 @@ export const StyledQuestionText = styled.div`
   color: #9fa2b4;
 `;
 
-export const StyledQuestionSpan = styled.span`
+export const StyledQuestionSpan = styled.a`
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
