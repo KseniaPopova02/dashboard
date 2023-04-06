@@ -1,8 +1,3 @@
-import { Question } from "./components";
-const App = () => (
-  <>
-    <Question></Question>
-  </>
-);
+const App = () => <></>;
 
 export default App;
