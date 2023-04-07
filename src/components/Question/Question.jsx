@@ -1,9 +1,9 @@
 import React from "react";
-import { StyledQuestionSpan, StyledQuestionText } from "./style";
+import { StyledLink, StyledText } from "./style";
 
 export const Question = ({ href = "" }) => (
-  <StyledQuestionText>
+  <StyledText>
     Don’t have an account?
-    <StyledQuestionSpan href={href}>Sign up</StyledQuestionSpan>
-  </StyledQuestionText>
+    <StyledLink href={href}>Sign up</StyledLink>
+  </StyledText>
 );

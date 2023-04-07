@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledQuestionText = styled.div`
+export const StyledText = styled.div`
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -8,7 +8,7 @@ export const StyledQuestionText = styled.div`
   text-align: center;
 `;
 
-export const StyledQuestionSpan = styled.a`
+export const StyledLink = styled.a`
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
