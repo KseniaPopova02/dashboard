@@ -1,5 +1,10 @@
 import React from "react";
-import { Input } from "antd";
-import "./style.css";
+import { StyledInput } from "./style";
 
-export const InputPassword = () => <Input.Password className="input" />;
+export const InputPassword = ({ type = "text", placeholder = "" }) => (
+  <StyledInput
+    className="input__password"
+    placeholder={placeholder}
+    type={type}
+  />
+);
