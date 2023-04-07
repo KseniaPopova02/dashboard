@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledLogoSubtitle = styled.div`
+export const Wrapper = styled.div`
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;

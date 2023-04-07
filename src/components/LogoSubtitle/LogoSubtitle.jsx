@@ -1,6 +1,4 @@
 import React from "react";
-import { StyledLogoSubtitle } from "./style";
+import { Wrapper } from "./style";
 
-export const LogoSubtitle = ({ children }) => (
-  <StyledLogoSubtitle>{children}</StyledLogoSubtitle>
-);
+export const LogoSubtitle = ({ children }) => <Wrapper>{children}</Wrapper>;
