@@ -1,5 +1,6 @@
 import React from "react";
-import { Input } from "antd";
-import "./style.css";
+import { StyledInput } from "./style";
 
-export const InputAnt = () => <Input className="input" />;
+export const InputAnt = ({ type = "text", placeholder = "" }) => (
+  <StyledInput className="input" placeholder={placeholder} type={type} />
+);
