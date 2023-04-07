@@ -1,6 +1,6 @@
 import React from "react";
-import { StyledLogoTitle } from "./style";
+import { StyledTitle } from "./style";
 
 export const LogoTitle = ({ children }) => (
-  <StyledLogoTitle>{children}</StyledLogoTitle>
+  <StyledTitle>{children}</StyledTitle>
 );

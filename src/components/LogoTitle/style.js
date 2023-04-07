@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledLogoTitle = styled.div`
+export const StyledTitle = styled.div`
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
