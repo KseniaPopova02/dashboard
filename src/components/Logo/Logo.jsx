@@ -1,9 +1,9 @@
 import React from "react";
-import { StyledLogoWrapper, StyledLogoSvg, StyledLogoText } from "./style";
+import { StyledWrapper, StyledLogo, StyledText } from "./style";
 
 export const Logo = () => (
-  <StyledLogoWrapper>
-    <StyledLogoSvg
+  <StyledWrapper>
+    <StyledLogo
       width="1em"
       height="1em"
       viewBox="0 0 48 48"
@@ -28,7 +28,7 @@ export const Logo = () => (
           <stop offset="1" stopColor="white" />
         </linearGradient>
       </defs>
-    </StyledLogoSvg>
-    <StyledLogoText>Dashboard Kit</StyledLogoText>
-  </StyledLogoWrapper>
+    </StyledLogo>
+    <StyledText>Dashboard Kit</StyledText>
+  </StyledWrapper>
 );

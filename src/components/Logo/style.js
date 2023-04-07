@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
-export const StyledLogoWrapper = styled.div`
+export const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
-export const StyledLogoSvg = styled.svg`
+export const StyledLogo = styled.svg`
   font-size: 48px;
 `;
 
-export const StyledLogoText = styled.div`
+export const StyledText = styled.div`
   font-weight: 700;
   font-size: 19px;
   line-height: 24px;
